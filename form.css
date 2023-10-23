@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 1em;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-image: url(assets/7779761.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header .menu {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu h1 {
+    font-size: 1.2rem;
+}
+
+.menu div img {
+    width: min(150px, 1440px);
+}
+
+
+.menu div:nth-child(2) {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    width: 1000px;
+    height: 600px;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left div {
+    width: 800px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left div img {
+    position: relative;
+    max-width: 70%;
+    margin: 5%;
+    transition: ease 0.75s;
+}
+
+#left div img:hover {
+    top: -3%;
+}
+
+#right>div {
+    width: 800px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#right form {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+form div label {
+    font-size: 0.8rem;
+}
+
+form div input {
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.1rem 0 0.1rem;
+}
+
+form textarea {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.1rem 0 0.1rem;
+}
+
+form div input[type=checkbox] {
+    width: 5%;
+    height: 1rem;
+}
+
+form div textarea {
+    width: 100%;
+}
+
+form div input:focus {
+    border-radius: 0.5rem;
+}
+
+form div:nth-last-child(2) {
+    text-align: center;
+}
+
+form div:nth-last-child(1) {
+    align-self: center;
+}
+
+#sign-in {
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.2rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#sign-up {
+    cursor: pointer;
+    background-color: black;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#sign-in:hover,
+#sign-up:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px #6d53a8;
+}
+
+footer {
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    display: flex;
+}
+
+footer h1 {
+    font-size: 1.2rem;
+}
+
+.footer {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer #social,
+#contact {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer #privacy {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: min(30px, 1440px);
+}
+
+#social img:hover {
+    transform: scale(1.2);
+}

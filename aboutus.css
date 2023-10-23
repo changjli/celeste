@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-image: url(assets/601973.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header .menu {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu h1 {
+    font-size: 1.2rem;
+}
+
+.menu div img {
+    width: min(10vw, 1440px);
+}
+
+.menu div:nth-child(2) {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1152px;
+    height: auto;
+    position: relative;
+    margin: 5% 10% 5%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.content div {
+    padding: 5%;
+    margin: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content img {
+    width: 40%;
+    height: auto;
+    flex-basis: 400px;
+}
+
+.content div p {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    flex-basis: 400px;
+}
+
+footer {
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    display: flex;
+}
+
+footer h1 {
+    font-size: 1.2rem;
+}
+
+.footer {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer #social,
+#contact {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer #privacy {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: min(30px, 1440px);
+}
+
+#social img:hover {
+    transform: scale(1.2);
+}
